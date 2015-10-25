@@ -1,0 +1,69 @@
+
+<%
+
+
+       declarar entero a
+       declarar entero b
+       declarar cadena[25] apellido
+       declarar cadena[25] dinero
+        declarar cadena[50] prado
+
+        procedimiento funfactorial(entero x)
+
+        declarar entero factorial
+
+        inicio
+
+            factorial <- 1
+
+            x <- 1
+
+            mientras x<= 3 haga
+            factorial <- factorial*x
+            x <- x+1
+            fin mientras
+
+            escriba "Factorial"
+            escriba factorial
+
+        fin
+
+          llamar funfactorial(1)
+        apellido <- "Siwady"
+       dinero <- "Dolares"
+       prado <- apellido + dinero
+       escriba  prado
+       a <- 1
+       si VERDADERO y no(a < 5) entonces
+          escriba a
+          escriba " "
+       fin si
+
+        mientras a<8 haga
+
+        a <- a + 1
+        escriba a
+
+        fin mientras
+
+        para b<-2 hasta 10 haga
+            escriba "holis"
+
+        fin para
+         a <- 1
+        mientras a<8 haga
+
+        a <- a + 1
+        escriba a
+        para b<-2 hasta 10 haga
+            escriba "holis"
+
+        fin para
+        fin mientras
+        a <- 1
+
+
+
+
+%>
+
